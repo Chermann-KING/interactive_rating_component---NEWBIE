@@ -1,5 +1,5 @@
 const rates = document.querySelectorAll(".rate ul li");
-let choice = document.getElementById("number");
+let number = document.getElementById("number");
 const button = document.querySelector("button");
 
 rates.forEach((rate) => {
@@ -8,7 +8,7 @@ rates.forEach((rate) => {
       rate.classList.remove("selected");
     });
     rate.classList.toggle("selected");
-    choice.innerHTML = `${rate.innerHTML}`;
+    number.innerHTML = `${rate.innerHTML}`;
   });
 });
 
