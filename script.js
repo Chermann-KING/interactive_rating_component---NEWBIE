@@ -1,6 +1,8 @@
 const rates = document.querySelectorAll(".rate ul li");
 let number = document.getElementById("number");
 const button = document.querySelector("button");
+let box = document.querySelector(".box");
+let box_thanks = document.querySelector(".box.thank");
 
 rates.forEach((rate) => {
   rate.addEventListener("click", () => {
@@ -13,6 +15,8 @@ rates.forEach((rate) => {
 });
 
 button.addEventListener("click", () => {
-  document.querySelector(".box.thank").style.display = "flex";
-  document.querySelector(".box").style.display = "none";
+  box_thanks.style.display = "flex";
+  box_thanks.style.transform = "translate(0, 0)";
+  box_thanks.style.opacity = "1";
+  box.style.display = "none";
 });
