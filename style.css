@@ -70,9 +70,9 @@ main {
   margin: 0 calc(var(--margin) * 2);
 }
 .box .icon-star {
-  border-radius: 50%;
+  border-radius: calc(var(--borderRadius) * 10);
   background: hsla(217, 12%, 54%, 0.2);
-  padding: 0.5rem;
+  padding: calc(var(--padding) * 0.5);
 }
 .box h3 {
   font-size: calc(var(--fontSize) * 1.5);
