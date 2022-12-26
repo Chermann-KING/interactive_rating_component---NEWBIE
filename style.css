@@ -72,12 +72,13 @@ main {
   background: hsla(217, 12%, 54%, 0.2);
   padding: calc(var(--padding) * 0.5);
 }
-.box-rate h3 {
+.box h1 {
   font-size: calc(var(--fontSize) * 1.5);
   font-weight: 700;
 }
 .box-rate p {
   color: var(--lightGray);
+  /* color: red; */
   font-weight: 400;
 }
 .rate,
